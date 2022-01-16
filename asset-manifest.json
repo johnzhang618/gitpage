@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/gitpage/static/css/main.ca0aac77.css",
+    "main.js": "/gitpage/static/js/main.3dcdcfc0.js",
+    "static/js/787.7bc9124e.chunk.js": "/gitpage/static/js/787.7bc9124e.chunk.js",
+    "static/media/nunito-latin-regular.woff": "/gitpage/static/media/nunito-latin-regular.1f30e08faa7c60d1f7ac.woff",
+    "static/media/nunito-latin-regular.woff2": "/gitpage/static/media/nunito-latin-regular.39a18f443d434999b89b.woff2",
+    "index.html": "/gitpage/index.html",
+    "main.ca0aac77.css.map": "/gitpage/static/css/main.ca0aac77.css.map",
+    "main.3dcdcfc0.js.map": "/gitpage/static/js/main.3dcdcfc0.js.map",
+    "787.7bc9124e.chunk.js.map": "/gitpage/static/js/787.7bc9124e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca0aac77.css",
+    "static/js/main.3dcdcfc0.js"
+  ]
+}

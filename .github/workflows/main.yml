@@ -3,7 +3,7 @@ name: main
 on: 
   push:
     branches:
-      - gh-pages
+      - main
 
 jobs:
   test:
@@ -12,6 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
+    - run: git merge main
     - name: Use Node
       uses: actions/setup-node@v2
       with: 
@@ -42,3 +43,6 @@ jobs:
           personal_token: ${{ secrets.ACTION_TOKEN }}
           publish_dir: ./build
           force_orphan: true
+
+      - run: npm install -g serve
+      - run: serve -s build
